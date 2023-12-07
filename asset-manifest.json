@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Mger-arzi/hw2sprint/static/css/main.f770a80b.css",
-    "main.js": "/Mger-arzi/hw2sprint/static/js/main.f35a30b0.js",
+    "main.css": "/Mger-arzi/hw2sprint/static/css/main.dfd6b623.css",
+    "main.js": "/Mger-arzi/hw2sprint/static/js/main.5368ea48.js",
     "static/js/787.66cb4309.chunk.js": "/Mger-arzi/hw2sprint/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/Mger-arzi/hw2sprint/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/Mger-arzi/hw2sprint/index.html",
-    "main.f770a80b.css.map": "/Mger-arzi/hw2sprint/static/css/main.f770a80b.css.map",
-    "main.f35a30b0.js.map": "/Mger-arzi/hw2sprint/static/js/main.f35a30b0.js.map",
+    "main.dfd6b623.css.map": "/Mger-arzi/hw2sprint/static/css/main.dfd6b623.css.map",
+    "main.5368ea48.js.map": "/Mger-arzi/hw2sprint/static/js/main.5368ea48.js.map",
     "787.66cb4309.chunk.js.map": "/Mger-arzi/hw2sprint/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f770a80b.css",
-    "static/js/main.f35a30b0.js"
+    "static/css/main.dfd6b623.css",
+    "static/js/main.5368ea48.js"
   ]
 }
