@@ -1,0 +1,39 @@
+.message {
+ width: 527px;
+height: 60px;
+}
+
+.imageAndText {
+    display: flex;
+    position: relative;
+    background-color: rgba(0, 102, 204, 1);
+    border-radius:  5px 100px 0px 5px 
+}
+
+.imageAndText img {
+    width: 48px;
+    position: absolute;
+    left: 470px;
+    bottom: 10px;
+
+}
+
+.text {
+
+}
+
+.text:after {
+
+}
+
+.name {
+
+}
+
+.messageText {
+    color: red
+}
+
+.time {
+
+}

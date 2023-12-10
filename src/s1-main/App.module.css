@@ -1,0 +1,18 @@
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+    display: flex;
+    width: 1280px;
+    padding: 131px 0px 216px 0px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.hwTitle {
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+}
