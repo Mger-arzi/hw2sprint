@@ -1,4 +1,4 @@
-import React, { ChangeEvent, KeyboardEvent, useState } from 'react'
+import React, { ChangeEvent, Dispatch, KeyboardEvent, useState } from 'react'
 import Greeting from './Greeting'
 import { UserType } from './HW3'
 
@@ -7,7 +7,7 @@ type GreetingContainerPropsType = {
     addUserCallback: (name:string) => void // need to fix any
 }
 
-export const pureAddUser = (name: string, setError: any, setName: any, addUserCallback: any) => {
+export const pureAddUser = (name: string, setError: (error: string)=> void, setName: Dispatch<React.SetStateAction<string>>, addUserCallback: any) => {
     // если имя пустое - показать ошибку, иначе - добавить юзера и очистить инпут
     if(name === '' ){
         setError("Ошибка! Введите имя! ")
@@ -23,7 +23,7 @@ export const pureOnBlur = (name: string, setError: any) => {
      // если имя пустое - показать ошибку
 }}
 
-export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: any) => { // если нажата кнопка Enter - добавить
+export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: ()=> void) => { // если нажата кнопка Enter - добавить
     if (e.key === "Enter") {
         addUser()
     }
