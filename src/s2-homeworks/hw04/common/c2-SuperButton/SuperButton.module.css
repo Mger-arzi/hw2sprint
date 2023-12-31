@@ -2,15 +2,19 @@
 }
 
 .disabled {
+    color: rgba(11, 11, 240, 0.768);
 }
 
 .secondary {
+    color: coral;
 }
 
 .default {
+    color: rgb(35, 255, 35);
 }
 
 .red {
+    color: rgb(249, 83, 0);
 }
 
 .default:hover {
