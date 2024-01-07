@@ -1,10 +1,13 @@
 .sidebar {
+    background-color: #e98a8a;
 }
 
 .sidebar.open {
+    background-color: antiquewhite;
 }
 
 .background {
+    background-color: rgba(0, 0, 0, 0.101);
 }
 
 .nav {
@@ -17,6 +20,7 @@
 }
 
 .nav a.active {
+    background-color: blue;
 }
 .close {
 }
