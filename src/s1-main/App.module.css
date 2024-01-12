@@ -4,6 +4,7 @@
 
 .hw {
     display: flex;
+    flex-direction: column;
     width: 1280px;
     padding: 131px 0px 216px 0px;
     justify-content: center;
