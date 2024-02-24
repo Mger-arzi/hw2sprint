@@ -4,16 +4,16 @@
 
 .hw {
     display: flex;
-    flex-direction: column;
-    width: 1280px;
-    padding: 131px 0px 216px 0px;
+    min-width: 1280px;
+    padding: 13px 0px 21px 0px;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    border: 1px solid black;
 }
 
 .hwTitle {
     position: relative;
     font-size: 22px;
     font-weight: 600;
+    padding: 10px;
 }

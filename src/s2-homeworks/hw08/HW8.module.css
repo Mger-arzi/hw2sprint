@@ -1,23 +1,38 @@
 .item {
-}
-
+    height: 30px;
+    color: rebeccapurple;
+    background-color: rgba(112, 112, 112, 0.089);
+}   
 .item:last-of-type {
+    color: red;
 }
 
 .users {
+    width: 600px;
+    border: none;
 }
 
 .buttonsContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
 }
 
 .container {
+    
 }
 
 .thead {
+    font-weight: 600;
+    background-color: rgba(195, 198, 201, 0.723);
 }
 
 .nameCol {
+    padding: 6px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.293);
+
 }
 
 .ageCol {
+    
 }
