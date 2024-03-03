@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import {restoreState} from '../hw06/localStorage/localStorage'
 import s from './Clock.module.css'
-import { log } from 'console'
 
 function Clock() {
     const [timerId, setTimerId] = useState<number | undefined>(undefined)
@@ -12,15 +11,17 @@ function Clock() {
 
 
     const start = () => {
+        if (timerId) return
         setInterval(() => setDate(new Date()),1000)
         // пишут студенты // запустить часы (должно отображаться реальное время, а не +1)
         // сохранить ид таймера (https://learn.javascript.ru/settimeout-setinterval#setinterval)
     }
 
     const stop = () => {
-        timerId
+        setTimerId(undefined)
         // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
-
+        
+        // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
     }
 
     const onMouseEnter = () => { 
@@ -79,14 +80,14 @@ function Clock() {
             <div className={s.buttonsContainer}>
                 <SuperButton
                     id={'hw9-button-start'}
-                    disabled={false} // пишут студенты // задизэйблить если таймер запущен
+                    disabled={ timerId !== undefined ? true :false} // пишут студенты // задизэйблить если таймер запущен
                     onClick={start}
                 >
                     start
                 </SuperButton>
                 <SuperButton
                     id={'hw9-button-stop'}
-                    disabled={true} // пишут студенты // задизэйблить если таймер не запущен
+                    disabled={false} // пишут студенты // задизэйблить если таймер не запущен
                     onClick={stop}
                 >
                     stop
