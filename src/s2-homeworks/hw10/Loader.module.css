@@ -1,3 +1,22 @@
 .loader {
     /*свг и/или анимация*/
 }
+
+
+.loader {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: rgb(49, 139, 219) transparent;
+    animation: spin 1s infinite ease-out;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
