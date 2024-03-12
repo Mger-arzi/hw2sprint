@@ -10,13 +10,14 @@
     border: 3px solid;
     border-color: rgb(49, 139, 219) transparent;
     animation: spin 1s infinite ease-out;
-  }
-  
-  @keyframes spin {
+}
+
+@keyframes spin {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
