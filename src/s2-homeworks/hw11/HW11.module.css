@@ -2,7 +2,12 @@
 }
 
 .wrapper {
+    width: 200px;
+    border-radius: 10px;
 }
 
 .number {
+color: #cccccc;
+display: flex;
+
 }

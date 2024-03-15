@@ -50,7 +50,7 @@ function HW11() {
                         <SuperRange
                             id={'hw11-double-slider'}
                             onChange={change}
-                            value={[value1, value2]}
+                            value={[value2, value1]}
 
                             // сделать так чтоб value1/2 изменялось // пишет студент
 
