@@ -1,13 +1,24 @@
 .container {
+    
 }
 
 .wrapper {
     width: 200px;
-    border-radius: 10px;
+    height: 56px;
 }
 
 .number {
-color: #cccccc;
-display: flex;
-
+    color: #020202;
+    font-weight: 700;
+    font-size: 25px;
+    position: relative;
+    top: 27px;
+    right: 60px;
+}
+.number2{
+    font-weight: 700;
+    font-size: 25px;
+    position: relative;
+    top: -35px;
+    left:225px;
 }
