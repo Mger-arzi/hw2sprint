@@ -13,9 +13,9 @@ import {changeThemeId} from './bll/themeReducer'
 * */
 
 const themes = [
-    {id: 1, value: 'Light'},
-    {id: 2, value: 'Blue'},
-    {id: 3, value: 'Dark'},
+    {id: 1, value: 'light'},
+    {id: 2, value: 'blue'},
+    {id: 3, value: 'dark'},
 ]
 
 const HW12 = () => {
@@ -44,10 +44,7 @@ const HW12 = () => {
                     className={s.select}
                     options={themes}
                     onChangeOption={change}
-                    value={themeId}
-                    //onChange={change} // передать функцию из props в SuperSelect
                     // сделать переключение тем
-
                 />
             </div>
         </div>
