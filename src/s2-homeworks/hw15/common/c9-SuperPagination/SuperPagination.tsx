@@ -28,12 +28,14 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
   const onChangeSelect = (event: any) => {
 
     debugger
-    onChange(page, +event.currentTarget.value)
+    onChange(1, +event)
     // пишет студент
   }
 
   return (
+
     <div className={s.pagination}>
+
       <Pagination
         id={id + '-pagination'}
         sx={{
@@ -42,6 +44,7 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
           fontWeight: 'bold',
           padding: '0.5rem',
           borderRadius: '0.5rem',
+
           // стили для Pagination // пишет студент
         }}
         page={page}
@@ -50,7 +53,6 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
         hideNextButton
         hidePrevButton
       />
-
       <span className={s.text1}>
         показать
       </span>
@@ -64,6 +66,9 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
           { id: 10, value: 10 },
         ]}
         onChange={onChangeSelect}
+        onChangeOption={onChangeSelect}
+
+
       />
 
       <span className={s.text2}>
